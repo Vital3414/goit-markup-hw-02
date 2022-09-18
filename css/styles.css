@@ -6,7 +6,7 @@
     --hero-text: #ffffff;
     --background-color: #2f303a;
     --footer-tel: rgba(255, 255, 255, 0.6);
-    --hero-secrion-4: #F5F4FA;
+    --hero-section-4: #F5F4FA;
 }
 
 .body {
@@ -63,9 +63,13 @@
 .header-tel:focus,
 .footer-mail:focus,
 .footer-tel:focus,
-.footer-map:focus,
-.main-btn:focus {
+.footer-map:focus {
     color: var(--header-color);
+}
+
+.main-btn:focus {
+    color: var(--hero-text);
+    background-color: var(--header-color);
 }
 
 .header-mail,
@@ -76,6 +80,16 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--header-tel);
+}
+
+.style-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    background: var(--hero-section-4)
 }
 
 .hero-text {
@@ -148,7 +162,7 @@
 } */
 
 .hero-section-4 {
-    background-color: var(--hero-secrion-4);
+    background-color: var(--hero-section-4);
 }
 
 .manufacturers {
@@ -171,6 +185,10 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--header-tel);
+}
+
+.footer-adress {
+    font-style: normal;
 }
 
 .footer-webstudio {
