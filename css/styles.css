@@ -112,9 +112,18 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    color: var(--header-studio-color);
+    cursor: pointer;
+}
+
+.hero-btn:hover {
     color: var(--hero-text);
     background-color: var(--header-color);
-    cursor: pointer;
+}
+
+.hero-btn:focus {
+    color: var(--hero-text);
+    background-color: var(--header-color);
 }
 
 .hero-section {
